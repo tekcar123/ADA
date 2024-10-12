@@ -1,0 +1,69 @@
+body {
+  margin-top: 0px;
+}
+
+header {
+  padding-top: 20px;
+  margin-top: 0px;
+  font-size: 2.5em;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+
+}
+
+header nav {
+  font-size: 20px;
+
+}
+
+header nav a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav {
+  grid-column: 3/-1;
+}
+
+#logo {
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.current {
+  border-radius: 3px;
+  padding: 5px;
+}
+
+html.dark {
+  background-color: #1c1b1b;
+  color: white;
+}
+
+html.light {
+  background-color: beige;
+}
+
+html.dark header {
+  background-color: #0f0f0f;
+}
+
+html.light header {
+  background-color: white;
+}
+
+html.light .current {
+  background-color: #4881fb;
+}
+
+html.dark .current {
+  background-color: #1247b8;
+}
+
+html.light header nav a {
+  color: black;
+}
+
+html.dark header nav a {
+  color: white;
+}
