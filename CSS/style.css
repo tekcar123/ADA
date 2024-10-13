@@ -68,12 +68,17 @@ html.dark header nav a {
   color: rgb(210, 210, 190);
 }
 
-@media only screen and (max-width: 965px) {
+@media only screen and (max-width: 1000px) {
   header {
     display: block;
     text-align: center;
     font-size: 10vw;
     padding-bottom: 30px;
+
+  }
+
+  header nav {
+    font-size: 3vw;
 
   }
 }
